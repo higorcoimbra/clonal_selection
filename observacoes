@@ -1,0 +1,12 @@
+- inicializar aleatório
+- avaliação pode ser a própria função, os picos são todos positivos, então não precisa transformar a função.
+- seleção não vai ser a do clonal, pq a otimização é monomodal. todo mundo vai ser selecionado.
+- a clonagem é feito para cada indivíduo da população, gerando n clones para cada.
+- mutação igual do genético nos clones.
+	- dividide a avaliação pela avaliação máxima da população.
+	- a taxa de mutação varia de acordo com a taxa calculada antes.
+	- avalia qual p (rô) vai ficar melhor para mutação.
+	- calcula a taxa de mutação.
+	- gera valor aleatório entre 0 e a taxa de mutação.
+	- a operação de mutação pode ser a mesma do genético.
+- seleciona os melhores clones de cada indivíduo, o melhor de cada cluster vira o novo indivíduo.
