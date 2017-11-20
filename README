@@ -1,0 +1,7 @@
+Engenharia de Computação - CEFET-MG
+Higor Coimbra - Matheus Rosa
+Inteligencia Artificial - Pratica 10
+
+Algoritmo de Selecao Clonal
+
+Inicialmente, com a clonagem fixa para todos os individuos, o algoritmo não estava tendo um desempenho satisfatório. Para melhorar os resultados, foi introduzido a clonagem proporcional a afinidade, de forma a dar preferêcia aos individuos com maior afinidade.
